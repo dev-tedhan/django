@@ -3,7 +3,7 @@ from django.urls import path
 from member.views import MemberJoinView, MemberMyPageView, MemberLogoutView, \
     MemberLoginAppView, MemberCheckIdAPI
 
-app_name = 'member'
+app_name = 'member-app'
 
 urlpatterns = [
     path('join/', MemberJoinView.as_view(), name='join'),
